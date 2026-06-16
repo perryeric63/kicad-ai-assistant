@@ -2,6 +2,8 @@
 
 Local LLM-powered design assistant for KiCad 10. Works in PCB Editor and Footprint Editor.
 
+Local LLM-powered AI assistant for KiCad 10. Generates & executes PCB footprint/track code via llama.cpp. Handles pad placement, silk, connectors in PCB+Footprint editors. Knowledge mode covers schematics, symbols, gerber, 6 other tools. Refactored plugin architecture with streaming, token mgmt, auto-fix. Early alpha — code generation works but LLM quality varies with model.
+
 ## Project Structure
 
 ```
